@@ -1,0 +1,1548 @@
+[
+    {
+        "id": "52666633f4332c38",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "128337d4ad7b0474",
+        "type": "switch",
+        "z": "52666633f4332c38",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "4",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "5",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "6",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "7",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "8",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "9",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "10",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "11",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "12",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 12,
+        "x": 170,
+        "y": 700,
+        "wires": [
+            [
+                "2f25cba049a79651"
+            ],
+            [
+                "ade8042cdfb2b4d6"
+            ],
+            [
+                "cf1944d17d5fbfe9"
+            ],
+            [
+                "6a100d48d3ac3299"
+            ],
+            [
+                "6d4564ae28a7fc49"
+            ],
+            [
+                "637e0470060231be"
+            ],
+            [
+                "d7dc96341247f72e"
+            ],
+            [
+                "73447a9371ad3d36"
+            ],
+            [
+                "c9ab146ba913634b"
+            ],
+            [
+                "91fdb7f467df92ca"
+            ],
+            [
+                "16ecdc7916774641"
+            ],
+            [
+                "b5f59b003f206240"
+            ]
+        ]
+    },
+    {
+        "id": "2f25cba049a79651",
+        "type": "change",
+        "z": "52666633f4332c38",
+        "name": "Change-1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Nepal",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "message",
+                "pt": "msg",
+                "to": "Nepal",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 500,
+        "wires": [
+            [
+                "a7ba6b360dba040d",
+                "5f5a66c7f19970b8"
+            ]
+        ]
+    },
+    {
+        "id": "ade8042cdfb2b4d6",
+        "type": "change",
+        "z": "52666633f4332c38",
+        "name": "Change-2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "China",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 540,
+        "wires": [
+            [
+                "ee479a3bef310763",
+                "5f5a66c7f19970b8"
+            ]
+        ]
+    },
+    {
+        "id": "cf1944d17d5fbfe9",
+        "type": "change",
+        "z": "52666633f4332c38",
+        "name": "Change-3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Germany",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 580,
+        "wires": [
+            [
+                "80720f8c3fa25f93",
+                "5f5a66c7f19970b8"
+            ]
+        ]
+    },
+    {
+        "id": "6a100d48d3ac3299",
+        "type": "change",
+        "z": "52666633f4332c38",
+        "name": "Change-4",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Maldives",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 620,
+        "wires": [
+            [
+                "88032daf7258dadc",
+                "5f5a66c7f19970b8"
+            ]
+        ]
+    },
+    {
+        "id": "6d4564ae28a7fc49",
+        "type": "change",
+        "z": "52666633f4332c38",
+        "name": "Change-5",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Netherland",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 660,
+        "wires": [
+            [
+                "e4b7522ebd954db3",
+                "5f5a66c7f19970b8"
+            ]
+        ]
+    },
+    {
+        "id": "637e0470060231be",
+        "type": "change",
+        "z": "52666633f4332c38",
+        "name": "Change-6",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Norway",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 700,
+        "wires": [
+            [
+                "af6e2e8cac500106",
+                "5f5a66c7f19970b8"
+            ]
+        ]
+    },
+    {
+        "id": "d7dc96341247f72e",
+        "type": "change",
+        "z": "52666633f4332c38",
+        "name": "Change-7",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Singapore",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 740,
+        "wires": [
+            [
+                "d6fbabd6359835ea",
+                "5f5a66c7f19970b8"
+            ]
+        ]
+    },
+    {
+        "id": "73447a9371ad3d36",
+        "type": "change",
+        "z": "52666633f4332c38",
+        "name": "Change-8",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "South Korea",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 780,
+        "wires": [
+            [
+                "0e17c6f9ca87c9af",
+                "5f5a66c7f19970b8"
+            ]
+        ]
+    },
+    {
+        "id": "c9ab146ba913634b",
+        "type": "change",
+        "z": "52666633f4332c38",
+        "name": "Change-9",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "United Arab Emirates",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 820,
+        "wires": [
+            [
+                "6661ba3323fce315",
+                "5f5a66c7f19970b8"
+            ]
+        ]
+    },
+    {
+        "id": "91fdb7f467df92ca",
+        "type": "change",
+        "z": "52666633f4332c38",
+        "name": "Change-10",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "United Kingdom",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 860,
+        "wires": [
+            [
+                "20d66f873159313d",
+                "5f5a66c7f19970b8"
+            ]
+        ]
+    },
+    {
+        "id": "16ecdc7916774641",
+        "type": "change",
+        "z": "52666633f4332c38",
+        "name": "Change-11",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "United States",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 900,
+        "wires": [
+            [
+                "70df3b6fd05e7b75",
+                "5f5a66c7f19970b8"
+            ]
+        ]
+    },
+    {
+        "id": "b5f59b003f206240",
+        "type": "change",
+        "z": "52666633f4332c38",
+        "name": "Change-12",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Vietnam",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 940,
+        "wires": [
+            [
+                "30ae3d57aa94dc9c",
+                "5f5a66c7f19970b8"
+            ]
+        ]
+    },
+    {
+        "id": "e0264bd3e85d7bf2",
+        "type": "google places",
+        "z": "52666633f4332c38",
+        "reqType": "placesNearby",
+        "googleAPI": "",
+        "name": "",
+        "lat": "",
+        "lon": "",
+        "query": "",
+        "radius": "",
+        "rankBy": "",
+        "keyword": "",
+        "language": "",
+        "minPrice": "",
+        "maxPrice": "",
+        "placeName": "",
+        "placeId": "",
+        "extensions": "",
+        "openNow": "",
+        "types": "",
+        "outputnumber": "1",
+        "outputas": "single",
+        "x": 1330,
+        "y": 700,
+        "wires": [
+            [
+                "1fec767803990a0c",
+                "eafaa4826c764cfa"
+            ]
+        ]
+    },
+    {
+        "id": "be51cd130afe0ce3",
+        "type": "google geocoding",
+        "z": "52666633f4332c38",
+        "name": "",
+        "geocodeBy": "address",
+        "address": "",
+        "lat": "",
+        "lon": "",
+        "googleAPI": "",
+        "bounds": "",
+        "language": "",
+        "region": "",
+        "components": "",
+        "x": 950,
+        "y": 600,
+        "wires": [
+            [
+                "ebcf3ac5cfba5628"
+            ]
+        ]
+    },
+    {
+        "id": "a7ba6b360dba040d",
+        "type": "openweathermap",
+        "z": "52666633f4332c38",
+        "name": "Nepal weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Kathmandu",
+        "country": "NP",
+        "language": "en",
+        "x": 640,
+        "y": 980,
+        "wires": [
+            [
+                "f81b3808951bbf7d"
+            ]
+        ]
+    },
+    {
+        "id": "ee479a3bef310763",
+        "type": "openweathermap",
+        "z": "52666633f4332c38",
+        "name": "China weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Beijing",
+        "country": "CN",
+        "language": "en",
+        "x": 640,
+        "y": 1020,
+        "wires": [
+            [
+                "f81b3808951bbf7d"
+            ]
+        ]
+    },
+    {
+        "id": "80720f8c3fa25f93",
+        "type": "openweathermap",
+        "z": "52666633f4332c38",
+        "name": "Germany weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Berlin",
+        "country": "DE",
+        "language": "en",
+        "x": 650,
+        "y": 1060,
+        "wires": [
+            [
+                "f81b3808951bbf7d"
+            ]
+        ]
+    },
+    {
+        "id": "88032daf7258dadc",
+        "type": "openweathermap",
+        "z": "52666633f4332c38",
+        "name": "Maldives weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Male",
+        "country": "MV",
+        "language": "en",
+        "x": 650,
+        "y": 1100,
+        "wires": [
+            [
+                "f81b3808951bbf7d"
+            ]
+        ]
+    },
+    {
+        "id": "e4b7522ebd954db3",
+        "type": "openweathermap",
+        "z": "52666633f4332c38",
+        "name": "Netherland weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Amsterdam",
+        "country": "NL",
+        "language": "en",
+        "x": 650,
+        "y": 1140,
+        "wires": [
+            [
+                "f81b3808951bbf7d"
+            ]
+        ]
+    },
+    {
+        "id": "af6e2e8cac500106",
+        "type": "openweathermap",
+        "z": "52666633f4332c38",
+        "name": "Norway weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Oslo",
+        "country": "NO",
+        "language": "en",
+        "x": 640,
+        "y": 1180,
+        "wires": [
+            [
+                "f81b3808951bbf7d"
+            ]
+        ]
+    },
+    {
+        "id": "d6fbabd6359835ea",
+        "type": "openweathermap",
+        "z": "52666633f4332c38",
+        "name": "Singapore Weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Singapore",
+        "country": "SG",
+        "language": "en",
+        "x": 650,
+        "y": 1220,
+        "wires": [
+            [
+                "f81b3808951bbf7d"
+            ]
+        ]
+    },
+    {
+        "id": "0e17c6f9ca87c9af",
+        "type": "openweathermap",
+        "z": "52666633f4332c38",
+        "name": "Korea weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Seoul",
+        "country": "KR",
+        "language": "en",
+        "x": 640,
+        "y": 1260,
+        "wires": [
+            [
+                "f81b3808951bbf7d"
+            ]
+        ]
+    },
+    {
+        "id": "6661ba3323fce315",
+        "type": "openweathermap",
+        "z": "52666633f4332c38",
+        "name": "UAE weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Abu Dhabi",
+        "country": "AE",
+        "language": "en",
+        "x": 630,
+        "y": 1300,
+        "wires": [
+            [
+                "f81b3808951bbf7d"
+            ]
+        ]
+    },
+    {
+        "id": "20d66f873159313d",
+        "type": "openweathermap",
+        "z": "52666633f4332c38",
+        "name": "UK weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "London",
+        "country": "GB",
+        "language": "en",
+        "x": 630,
+        "y": 1340,
+        "wires": [
+            [
+                "f81b3808951bbf7d"
+            ]
+        ]
+    },
+    {
+        "id": "70df3b6fd05e7b75",
+        "type": "openweathermap",
+        "z": "52666633f4332c38",
+        "name": "US weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Washington",
+        "country": "US",
+        "language": "en",
+        "x": 630,
+        "y": 1380,
+        "wires": [
+            [
+                "f81b3808951bbf7d"
+            ]
+        ]
+    },
+    {
+        "id": "30ae3d57aa94dc9c",
+        "type": "openweathermap",
+        "z": "52666633f4332c38",
+        "name": "Vietnam Weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Ha Noi",
+        "country": "VN",
+        "language": "en",
+        "x": 650,
+        "y": 1420,
+        "wires": [
+            [
+                "f81b3808951bbf7d"
+            ]
+        ]
+    },
+    {
+        "id": "9d9b511231fe14d5",
+        "type": "ui_text",
+        "z": "52666633f4332c38",
+        "group": "57723b4d9cbb531f",
+        "order": 2,
+        "width": 16,
+        "height": 3,
+        "name": "Description",
+        "label": "In this difficult time of pandemic, if you are confused where to travel and whether is it safe travel to any place or not, then you are in the right place. We use the existing COVID-19 dataset and allow you to view the current COVID status in that place so that it helps you in making your selection.",
+        "format": "",
+        "layout": "col-center",
+        "className": "",
+        "x": 610,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "457cab45a2ed50e8",
+        "type": "ui_template",
+        "z": "52666633f4332c38",
+        "group": "57723b4d9cbb531f",
+        "name": "",
+        "order": 30,
+        "width": 18,
+        "height": 8,
+        "format": "<iframe id = \"test\"\n  width=\"650\"\n  height=\"400\"\n  frameborder=\"0\" style=\"border:0\"\n  src = \"https://www.google.com/maps/embed/v1/place&q=KAIST,+Daejeon\"allowfullscreen>\n</iframe>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 780,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f81b3808951bbf7d",
+        "type": "ui_template",
+        "z": "52666633f4332c38",
+        "group": "57723b4d9cbb531f",
+        "name": "Weather description",
+        "order": 18,
+        "width": 16,
+        "height": 1,
+        "format": "<div ng-bind-html=\"msg.payload.description\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1040,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5f5a66c7f19970b8",
+        "type": "function",
+        "z": "52666633f4332c38",
+        "name": "",
+        "func": "msg.location = {}\nmsg.location.address = msg.payload\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 700,
+        "wires": [
+            [
+                "be51cd130afe0ce3",
+                "91beaa3de1227397"
+            ]
+        ]
+    },
+    {
+        "id": "ebcf3ac5cfba5628",
+        "type": "function",
+        "z": "52666633f4332c38",
+        "name": "",
+        "func": "msg.location = {};\nmsg.location.lat = msg.payload.lat;\nmsg.location.lon = msg.payload.lon;\nmsg.keyword = \"restaurant\";\nmsg.minprice = 0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 640,
+        "wires": [
+            [
+                "e0264bd3e85d7bf2"
+            ]
+        ]
+    },
+    {
+        "id": "1fec767803990a0c",
+        "type": "debug",
+        "z": "52666633f4332c38",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1290,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "70efe3a871d70e38",
+        "type": "play audio",
+        "z": "52666633f4332c38",
+        "name": "",
+        "voice": "50",
+        "x": 990,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "61cce82b6f7d2e78",
+        "type": "ui_dropdown",
+        "z": "52666633f4332c38",
+        "name": "",
+        "label": "Select Country:",
+        "tooltip": "",
+        "place": "Select country",
+        "group": "57723b4d9cbb531f",
+        "order": 13,
+        "width": 7,
+        "height": 2,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Beijing, China",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "Berlin, Germany",
+                "value": "3",
+                "type": "str"
+            },
+            {
+                "label": "Male, Maldives",
+                "value": "4",
+                "type": "str"
+            },
+            {
+                "label": "Kathmandu, Nepal",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "Amsterdam, Netherlands",
+                "value": "5",
+                "type": "str"
+            },
+            {
+                "label": "Oslo, Norway",
+                "value": "6",
+                "type": "str"
+            },
+            {
+                "label": "Singapore, Republic of Singapore",
+                "value": "7",
+                "type": "str"
+            },
+            {
+                "label": "Seoul, South Korea",
+                "value": "8",
+                "type": "str"
+            },
+            {
+                "label": "Abu Dhabi, United Arab Emirates",
+                "value": "9",
+                "type": "str"
+            },
+            {
+                "label": "London, United Kingdom",
+                "value": "10",
+                "type": "str"
+            },
+            {
+                "label": "Washington, D.C, United States",
+                "value": "11",
+                "type": "str"
+            },
+            {
+                "label": "Hanoi, Vietnam",
+                "value": "12",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 80,
+        "y": 540,
+        "wires": [
+            [
+                "128337d4ad7b0474"
+            ]
+        ]
+    },
+    {
+        "id": "5551d5b23942a0a3",
+        "type": "ui_template",
+        "z": "52666633f4332c38",
+        "group": "57723b4d9cbb531f",
+        "name": "final one",
+        "order": 21,
+        "width": 18,
+        "height": 2,
+        "format": "<div ng-bind-html=\"msg.payload\"></div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1600,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eafaa4826c764cfa",
+        "type": "function",
+        "z": "52666633f4332c38",
+        "name": "",
+        "func": "if (!msg.payload.name){\n    msg.payload = \"Sorry, we don't have information about this.\";\n    return msg;\n}\nlet a = msg.payload.name + \" is famous here and this restaurant is located in \" + msg.payload.vicinity + \". <br>  The rating is \" + msg.payload.rating\nlet b = \". (from 1.0 to 5.0, based on aggregated user reviews) <br>\"\nlet c = \"The price level is \" + msg.payload.pricelevel + \" on a scale of 0 to 4. (0-Free 1-Inexpensive 2-Moderate 3-Expensive 4-Very Expensive)\"\nlet d = \"<br> This place is currently open. Enjoy your meal!! :)\"\nmsg.payload = a + b + c +d;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 800,
+        "wires": [
+            [
+                "5551d5b23942a0a3"
+            ]
+        ]
+    },
+    {
+        "id": "91beaa3de1227397",
+        "type": "function",
+        "z": "52666633f4332c38",
+        "name": "",
+        "func": "msg.payload = \"Woow!! \" + msg.payload + \" is beautiful.\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 760,
+        "wires": [
+            [
+                "70efe3a871d70e38"
+            ]
+        ]
+    },
+    {
+        "id": "5ecef4b110966956",
+        "type": "ui_template",
+        "z": "52666633f4332c38",
+        "group": "57723b4d9cbb531f",
+        "name": "Office description",
+        "order": 27,
+        "width": 19,
+        "height": 1,
+        "format": "<p>Our office is located at KAIST. Feel free to come to our office. Take Care and stay safe!</p>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1380,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c72f3454fe9384f0",
+        "type": "e-mail",
+        "z": "52666633f4332c38",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "secure": true,
+        "tls": true,
+        "name": "",
+        "dname": "",
+        "x": 1710,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "dc602b235dc04707",
+        "type": "function",
+        "z": "52666633f4332c38",
+        "name": "",
+        "func": "msg.topic = \"Payment Information\"\nmsg.to = msg.payload.email\nmsg.payload = \"Hello Sir/Ma'am, \\nThank you for using our services.\\n\\nPlease transfer 1000KRW to the following bank account\\n*Woori Bank:1001203012345\\n\\nYou will get confirmation email after payment is confirmed.\\n\\nRegards,\\nBibek  \"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 440,
+        "wires": [
+            [
+                "c72f3454fe9384f0"
+            ]
+        ]
+    },
+    {
+        "id": "0973bc546ba26141",
+        "type": "ui_form",
+        "z": "52666633f4332c38",
+        "name": "Email Node",
+        "label": "Do you want to travel this place? If interested, we will contact you individually and send payment details. Please provide your email address.",
+        "group": "57723b4d9cbb531f",
+        "order": 25,
+        "width": 25,
+        "height": 1,
+        "options": [
+            {
+                "label": "Enter Email",
+                "value": "email",
+                "type": "email",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "email": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 1030,
+        "y": 420,
+        "wires": [
+            [
+                "94b33a18d758d1eb",
+                "dc602b235dc04707"
+            ]
+        ]
+    },
+    {
+        "id": "94b33a18d758d1eb",
+        "type": "debug",
+        "z": "52666633f4332c38",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "39314d6ffcb0632c",
+        "type": "ui_template",
+        "z": "52666633f4332c38",
+        "group": "57723b4d9cbb531f",
+        "name": "after chart",
+        "order": 10,
+        "width": 18,
+        "height": 1,
+        "format": "<p>After analyzing the above curve, what do you think? Do you want to explore more about the place you are interested?</p>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1670,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a4783b66efe40889",
+        "type": "ui_template",
+        "z": "52666633f4332c38",
+        "group": "57723b4d9cbb531f",
+        "name": "chart",
+        "order": 8,
+        "width": 25,
+        "height": 11,
+        "format": "<iframe src=\"https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSelection=true&time=2020-12-20..latest&facet=none&pickerSort=desc&pickerMetric=new_cases_smoothed_per_million&hideControls=true&Metric=Confirmed+cases&Interval=New+per+day&Relative+to+Population=true&Align+outbreaks=false&country=USA~GBR~DEU~CHN~MDV~NPL~NLD~NOR~SGP~ARE~VNM~KOR\" loading=\"lazy\" style=\"width: 100%; height: 600px; border: 0px none;\"></iframe>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1880,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "52298ac8ac4eb2f0",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 1,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "e8415c778d45b38f",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 3,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "90b9e93d1f93a180",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 4,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "b5a82298a0eb8519",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 5,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "f9ed9931ce11f588",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 6,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "6c157e228e0c23da",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 7,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "edc0da2cff81ed43",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 9,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "73a3232c04a4f603",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 11,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "b0663da089e84d92",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 12,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "c8287032a834c13d",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 14,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "e62fe39dcd40eabd",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 15,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "ddee05e15d998d23",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 16,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "57b719410e42b158",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 17,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "4e4496a20d0ed273",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 19,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "e4b4ef45678e0a49",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 20,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "3e93b49023100125",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 22,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "11d349933f76d72f",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 23,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "88284f1f28ed02aa",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 24,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "970012c5388ac2a8",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 26,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "4b75145ca1a50908",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 28,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e4ba02f554195989",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 29,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "55d6ce91e182d86f",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 31,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4484a4a468c3e2fc",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 32,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "316f4d223b32f5fc",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 33,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "062dc10f3fa638a9",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 34,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "cb19326bf5b0ab07",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 35,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "bd6e3905e2518bac",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 36,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "0cf8ff887495b246",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 37,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e5ee75f7911ec97a",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 38,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "cfaae095b4b6eed4",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 39,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "73a19cc07a5b609f",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 40,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "d31dac92159fbe1a",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 41,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b24775c9c8098230",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 42,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "2b15071f87ddcf02",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 43,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e16c47fbefad2fe6",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 44,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "38a165efd137883f",
+        "type": "ui_spacer",
+        "z": "52666633f4332c38",
+        "name": "spacer",
+        "group": "57723b4d9cbb531f",
+        "order": 45,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "57723b4d9cbb531f",
+        "type": "ui_group",
+        "name": "Welcome to Travel Recommender Service",
+        "tab": "81c2d507d7783929",
+        "order": 1,
+        "disp": true,
+        "width": 25,
+        "collapse": false,
+        "info": "We provide service"
+    },
+    {
+        "id": "81c2d507d7783929",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
